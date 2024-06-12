@@ -1,4 +1,4 @@
-import { Box, Flex } from '@chakra-ui/react'
+import { Center, Flex } from '@chakra-ui/react'
 import './App.css'
 import Header from './Header'
 import { Outlet } from 'react-router-dom'
@@ -12,12 +12,12 @@ function App() {
       width='100vw'
     >
       <Header /> 
-      <Box
+      <Center
         position='absolute'
         top='100px'
       >
         <Outlet /> 
-      </Box>
+      </Center>
     </Flex>
   )
 }
