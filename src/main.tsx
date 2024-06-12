@@ -5,6 +5,7 @@ import './index.css'
 import { ChakraProvider } from '@chakra-ui/react'
 import { RouterProvider, createHashRouter } from 'react-router-dom'
 import About from './About.tsx'
+import tonguesTheme from './theme.ts';
 
 const router = createHashRouter([
   {
@@ -21,7 +22,7 @@ const router = createHashRouter([
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <ChakraProvider>
+    <ChakraProvider theme={tonguesTheme}>
       <RouterProvider router={router} />
     </ChakraProvider>
   </React.StrictMode>,

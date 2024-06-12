@@ -1,7 +1,7 @@
-import { Center, Flex } from '@chakra-ui/react'
-import './App.css'
-import Header from './Header'
-import { Outlet } from 'react-router-dom'
+import { Center, Flex } from '@chakra-ui/react';
+import './App.css';
+import Header from './Header';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
@@ -10,6 +10,8 @@ function App() {
       alignItems='center' 
       height='100vh' 
       width='100vw'
+      bgColor='smokyBlack'
+      color='timberwolf'
     >
       <Header /> 
       <Center

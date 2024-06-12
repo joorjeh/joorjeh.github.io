@@ -19,6 +19,9 @@ const Header = () => {
                     <BreadcrumbLink href='#/'>Home</BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbItem>
+                    <BreadcrumbLink href='#/articles'>Articles</BreadcrumbLink>
+                </BreadcrumbItem>
+                <BreadcrumbItem>
                     <BreadcrumbLink href='#/about'>About</BreadcrumbLink>
                 </BreadcrumbItem>
             </Breadcrumb>
