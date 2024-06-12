@@ -6,6 +6,7 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { RouterProvider, createHashRouter } from 'react-router-dom'
 import About from './About.tsx'
 import tonguesTheme from './theme.ts';
+import Articles from './Articles.tsx'
 
 const router = createHashRouter([
   {
@@ -15,6 +16,10 @@ const router = createHashRouter([
       {
         path: 'about',
         element: <About />,
+      },
+      {
+        path: 'articles',
+        element: <Articles />,
       }
     ]
   },

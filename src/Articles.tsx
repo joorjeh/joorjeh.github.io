@@ -1,15 +1,19 @@
-import { Flex } from "@chakra-ui/react"
+import { Flex, Grid } from "@chakra-ui/react"
 import CardWrapper from "./CardWrapper";
 
 const Articles = () => {
     return (
         <Flex
-            flexDirection='column'
-            gap='10px'
+            width='100vw' 
+            justifyContent='center'
         >
-            <CardWrapper />    
-            <CardWrapper />
-            <CardWrapper />
+            <Grid
+                templateColumns='repeat(3, 1fr)'
+                gap='10px'
+                alignContent='center'
+            >
+                <CardWrapper />
+            </Grid>
         </Flex>
     )
 }

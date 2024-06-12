@@ -1,19 +1,20 @@
-import { Button, Card, CardBody, CardHeader, Heading, Text } from "@chakra-ui/react"
+import { Card, CardBody, CardHeader, Heading, Text } from "@chakra-ui/react"
 
 const CardWrapper = () => {
     return (
-        <Card 
-            borderRadius='20px'
-            height='200px'
-        >
-            <CardHeader>
-                <Heading size='lg'>Article</Heading>
-            </CardHeader>
-            <CardBody>
-                <Button colorScheme="teal">Button</Button>
-                <Text>This is an article I wrote for you special!</Text>
-            </CardBody>
-        </Card>
+            <Card 
+                borderRadius='lg'
+                height='200px'
+                borderWidth='1px'
+                bgColor='timberwolf'
+            >
+                <CardHeader>
+                    <Heading fontFamily='var(--chakra-fonts-body)' size='lg'>Article</Heading>
+                </CardHeader>
+                <CardBody>
+                    <Text>This is an article I wrote for you special!</Text>
+                </CardBody>
+            </Card>
     )
 }
 
