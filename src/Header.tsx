@@ -16,10 +16,10 @@ const Header = () => {
             <Box marginLeft='auto'>
             <Breadcrumb spacing='10px' separator='/'>
                 <BreadcrumbItem>
-                    <BreadcrumbLink href='/'>Home</BreadcrumbLink>
+                    <BreadcrumbLink href='#/'>Home</BreadcrumbLink>
                 </BreadcrumbItem>
                 <BreadcrumbItem>
-                    <BreadcrumbLink href='/about'>About</BreadcrumbLink>
+                    <BreadcrumbLink href='#/about'>About</BreadcrumbLink>
                 </BreadcrumbItem>
             </Breadcrumb>
             </Box>
