@@ -31,7 +31,7 @@ const Header = () => {
                 marginTop='auto'
                 width='70%'
             >
-                dreamlurch - glitches in the simulation
+                dreamlurch - glitches...
             </Box>
         </Flex>
     )
