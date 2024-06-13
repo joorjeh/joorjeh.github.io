@@ -11,14 +11,14 @@ function App() {
       height='100vh' 
       width='100vw'
       bgColor='white'
-      color='smokyBlack'
+      color='battleshipGray'
     >
       <Header /> 
       <Box
         position='absolute'
         top='100px'
         width='100vw'
-        height='calc(100vh - 100px)'
+        height='calc(100vh - 300px)'
         overflowY='scroll'
         padding='40px'
       >

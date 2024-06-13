@@ -11,6 +11,12 @@ const tonguesTheme = extendTheme({
     dun: '#DCC9B6',
     battleshipGray: '#808070',
     timberwolf: '#D9D3D3',
+    cadetGray: '#829399',
+    dreamBlue: '#BCD5DE',
+    platinum: '#E0E2E3',
+    seaSalt: '#F8F8F8',
+    antiFlashWhite: '#ECECEC',
+    jet: '#322E2B',
   },
   fonts: {
     body: "system-ui, sans-serif",

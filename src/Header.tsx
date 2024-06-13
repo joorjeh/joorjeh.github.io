@@ -3,28 +3,35 @@ import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex } from "@chakra-u
 const Header = () => {
     return (
         <Flex
-            height='100px'
-            width='100vw'
+            flexDirection='column'
             alignItems='center'
+            height='300px'
+            width='100%'
             padding='40px'
             boxSizing='border-box'
             position='fixed'
             fontWeight='bold'
             fontSize='20px'
+            bgColor='silver'
         >
-            <Box>dreamlurch</Box>
-            <Box marginLeft='auto'>
-            <Breadcrumb spacing='10px' separator='/'>
-                <BreadcrumbItem>
-                    <BreadcrumbLink href='#/'>Home</BreadcrumbLink>
-                </BreadcrumbItem>
-                <BreadcrumbItem>
-                    <BreadcrumbLink href='#/articles'>Articles</BreadcrumbLink>
-                </BreadcrumbItem>
-                <BreadcrumbItem>
-                    <BreadcrumbLink href='#/about'>About</BreadcrumbLink>
-                </BreadcrumbItem>
-            </Breadcrumb>
+            <Flex
+                width='100%'
+            >
+                <Box>dreamlurch</Box>
+                <Box marginLeft='auto'>
+                    <Breadcrumb spacing='10px' separator='/'>
+                        <BreadcrumbItem>
+                            <BreadcrumbLink href='#'>Blog</BreadcrumbLink>
+                        </BreadcrumbItem>
+                    </Breadcrumb>
+                </Box>
+            </Flex>
+            <Box 
+                fontSize='40px' 
+                marginTop='auto'
+                width='70%'
+            >
+                dreamlurch - glitches in the simulation
             </Box>
         </Flex>
     )
