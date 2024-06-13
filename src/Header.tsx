@@ -1,4 +1,4 @@
-import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex } from "@chakra-ui/react"
+import { Box, Flex } from "@chakra-ui/react"
 import XIcon from '@mui/icons-material/X';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from "react-router-dom";
@@ -20,7 +20,7 @@ const Header = () => {
             <Flex
                 width='100%'
             >
-                <Box>dreamlurch</Box>
+                <Link to="/">dreamlurch</Link>
                 <Flex gap='10px' marginLeft='auto'>
                     <Link to='https://github.com/dreamlurch'><GitHubIcon /></Link>
                     <Link to='https://x.com/dreamlurch'><XIcon /></Link>
