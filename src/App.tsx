@@ -20,7 +20,7 @@ function App() {
         width='100vw'
         height='calc(100vh - 100px)'
         overflowY='scroll'
-        padding='10px'
+        padding='40px'
       >
         <Outlet /> 
       </Box>
