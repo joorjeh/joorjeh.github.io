@@ -10,8 +10,8 @@ function App() {
       alignItems='center' 
       height='100vh' 
       width='100vw'
-      bgColor='smokyBlack'
-      color='timberwolf'
+      bgColor='white'
+      color='smokyBlack'
     >
       <Header /> 
       <Box
