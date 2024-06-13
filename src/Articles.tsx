@@ -1,6 +1,4 @@
 import { Flex, Grid } from "@chakra-ui/react"
-import CardWrapper from "./CardWrapper";
-import { Link } from "react-router-dom";
 
 const Articles = () => {
     return (
@@ -12,9 +10,6 @@ const Articles = () => {
                 templateColumns='repeat(2, 1fr)'
                 gap={2}
             >
-                <Link to="/">
-                    <CardWrapper />
-                </Link>
             </Grid>
         </Flex>
     )
