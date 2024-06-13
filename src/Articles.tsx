@@ -1,5 +1,6 @@
 import { Flex, Grid } from "@chakra-ui/react"
 import CardWrapper from "./CardWrapper";
+import { Link } from "react-router-dom";
 
 const Articles = () => {
     return (
@@ -8,11 +9,12 @@ const Articles = () => {
             justifyContent='center'
         >
             <Grid
-                templateColumns='repeat(3, 1fr)'
-                gap='10px'
-                alignContent='center'
+                templateColumns='repeat(2, 1fr)'
+                gap={2}
             >
-                <CardWrapper />
+                <Link to="/">
+                    <CardWrapper />
+                </Link>
             </Grid>
         </Flex>
     )
