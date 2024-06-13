@@ -17,6 +17,7 @@ const tonguesTheme = extendTheme({
     seaSalt: '#F8F8F8',
     antiFlashWhite: '#ECECEC',
     jet: '#322E2B',
+    whiteSmoke: '#F1F0F0',
   },
   fonts: {
     body: "system-ui, sans-serif",

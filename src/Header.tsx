@@ -1,4 +1,7 @@
 import { Box, Breadcrumb, BreadcrumbItem, BreadcrumbLink, Flex } from "@chakra-ui/react"
+import XIcon from '@mui/icons-material/X';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -12,19 +15,16 @@ const Header = () => {
             position='fixed'
             fontWeight='bold'
             fontSize='20px'
-            bgColor='silver'
+            bgColor='whiteSmoke'
         >
             <Flex
                 width='100%'
             >
                 <Box>dreamlurch</Box>
-                <Box marginLeft='auto'>
-                    <Breadcrumb spacing='10px' separator='/'>
-                        <BreadcrumbItem>
-                            <BreadcrumbLink href='#'>Blog</BreadcrumbLink>
-                        </BreadcrumbItem>
-                    </Breadcrumb>
-                </Box>
+                <Flex gap='10px' marginLeft='auto'>
+                    <Link to='https://github.com/dreamlurch'><GitHubIcon /></Link>
+                    <Link to='https://x.com/dreamlurch'><XIcon /></Link>
+                </Flex>
             </Flex>
             <Box 
                 fontSize='40px' 
