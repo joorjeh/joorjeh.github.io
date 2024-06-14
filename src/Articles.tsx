@@ -1,5 +1,4 @@
-import { Flex, Text } from "@chakra-ui/react"
-import Article from "./Article";
+import { Flex } from "@chakra-ui/react"
 
 const Articles = () => {
     return (
@@ -13,8 +12,8 @@ const Articles = () => {
                 gap='10px'
                 flexDirection='column'
             >
-                <Text alignSelf='start' fontSize='40px' color='black'>Blog</Text>
-                <Article />
+                {/* <Text alignSelf='start' fontSize='40px' color='black'>Blog</Text>
+                <Article /> */}
             </Flex>
         </Flex>
     )
