@@ -16,7 +16,7 @@ function App() {
       <Header /> 
       <Box
         position='absolute'
-        top='100px'
+        top='300px'
         width='100vw'
         height='calc(100vh - 300px)'
         overflowY='scroll'

@@ -1,16 +1,21 @@
-import { Flex, Grid } from "@chakra-ui/react"
+import { Flex, Text } from "@chakra-ui/react"
+import Article from "./Article";
 
 const Articles = () => {
     return (
         <Flex
-            width='100vw' 
+            width='100%' 
+            alignItems='center'
             justifyContent='center'
         >
-            <Grid
-                templateColumns='repeat(2, 1fr)'
-                gap={2}
+            <Flex 
+                width='60%'
+                gap='10px'
+                flexDirection='column'
             >
-            </Grid>
+                <Text alignSelf='start' fontSize='40px' color='black'>Blog</Text>
+                <Article />
+            </Flex>
         </Flex>
     )
 }
