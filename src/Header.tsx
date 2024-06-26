@@ -26,12 +26,12 @@ const Header = () => {
                     <Link 
                         to='https://github.com/dreamlurch'
                     >
-                        <GitHubIcon className="g-icon" />
+                        <GitHubIcon sx={{"&:hover": { color: "black"}}} />
                     </Link>
                     <Link 
                         to='https://x.com/dreamlurch'
                     >
-                        <XIcon />
+                        <XIcon sx={{"&:hover": { color: "black"}}} />
                     </Link>
                 </Flex>
             </Flex>
