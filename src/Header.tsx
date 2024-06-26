@@ -2,7 +2,6 @@ import { Box, Flex } from "@chakra-ui/react"
 import XIcon from '@mui/icons-material/X';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import { Link } from "react-router-dom";
-import './Header.css';
 
 const Header = () => {
     return (
