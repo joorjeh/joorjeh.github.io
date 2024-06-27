@@ -23,12 +23,12 @@ const Header = () => {
                 <Link to="/">dreamlurch</Link>
                 <Flex gap='10px' marginLeft='auto'>
                     <Link 
-                        to='https://github.com/dreamlurch'
+                        to='https://github.com/joorjeh'
                     >
                         <GitHubIcon sx={{"&:hover": { color: "black"}}} />
                     </Link>
                     <Link 
-                        to='https://x.com/dreamlurch'
+                        to='https://x.com/joorjeh'
                     >
                         <XIcon sx={{"&:hover": { color: "black"}}} />
                     </Link>
