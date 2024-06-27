@@ -20,7 +20,7 @@ const Header = () => {
             <Flex
                 width='100%'
             >
-                <Link to="/">dreamlurch</Link>
+                <Link to="/">joorjeh</Link>
                 <Flex gap='10px' marginLeft='auto'>
                     <Link 
                         to='https://github.com/joorjeh'
@@ -39,7 +39,7 @@ const Header = () => {
                 marginTop='auto'
                 width='70%'
             >
-                dreamlurch - glitches...
+                blog
             </Box>
         </Flex>
     )
