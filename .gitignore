@@ -25,3 +25,6 @@ dist-ssr
 
 # Production
 deploy.sh
+
+# vite
+.vite
