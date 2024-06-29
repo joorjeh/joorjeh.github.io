@@ -12,6 +12,8 @@ function App() {
       width='100vw'
       bgColor='white'
       color='battleshipGray'
+      fontFamily="Montserrat"
+      fontWeight={600}
     >
       <Header /> 
       <Box
