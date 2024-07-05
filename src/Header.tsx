@@ -5,18 +5,16 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
-        <Flex
-            flexDirection='column'
-            alignItems='center'
-            height='300px'
-            width='100%'
-            padding='40px'
-            boxSizing='border-box'
-            position='fixed'
-            fontWeight='bold'
-            fontSize='20px'
-            bgColor='whiteSmoke'
-        >
+		<Flex
+			flexDirection='column'
+			alignItems='center'
+			height='300px'
+			padding='40px'
+			boxSizing='border-box'
+			fontWeight='bold'
+			fontSize='20px'
+			width='100%'
+		>
             <Flex
                 width='100%'
             >
