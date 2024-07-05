@@ -8,7 +8,7 @@ const Header = () => {
 		<Flex
 			flexDirection='column'
 			alignItems='center'
-			height='300px'
+			height='100px'
 			padding='40px'
 			boxSizing='border-box'
 			fontWeight='bold'
@@ -32,13 +32,6 @@ const Header = () => {
                     </Link>
                 </Flex>
             </Flex>
-            <Box 
-                fontSize='40px' 
-                marginTop='auto'
-                width='70%'
-            >
-                blog
-            </Box>
         </Flex>
     )
 }

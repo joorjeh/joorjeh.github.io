@@ -1,21 +1,18 @@
-import { Flex } from "@chakra-ui/react"
+import { Flex, Box } from "@chakra-ui/react"
 
 const Articles = () => {
     return (
-        <Flex
-            width='100%' 
-            alignItems='center'
-            justifyContent='center'
-        >
-            <Flex 
-                width='60%'
-                gap='10px'
-                flexDirection='column'
+		<Flex 
+			width='100%'
+			gap='10px'
+			flexDirection='column'
+		>
+		 	<Box 
+                fontSize='40px' 
             >
-                {/* <Text alignSelf='start' fontSize='40px' color='black'>Blog</Text>
-                <Article /> */}
-            </Flex>
-        </Flex>
+                blog
+            </Box>
+		</Flex>
     )
 }
 
