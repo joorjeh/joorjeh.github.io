@@ -23,13 +23,14 @@ function App() {
 		height='100vh'
 	  >
 		<Header /> 
-		<Box
+	  <Box
 		  width='100%'
 		  height='calc(100vh - 300px)'
-		  overflowY='scroll'
+		  overflowY='auto'
 		  padding='40px'
+		  sx={{ '&::-webkit-scrollbar': { display: 'none' } }}
 		>
-		  <Outlet /> 
+		  <Outlet />
 		</Box>
 	  </Flex>
 	</Flex>
