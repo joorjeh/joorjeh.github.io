@@ -19,16 +19,16 @@ const Header = () => {
                 width='100%'
             >
                 <Link to="/">joorjeh</Link>
-                <Flex gap='10px' marginLeft='auto'>
+                <Flex color='battleshipGray' gap='10px' marginLeft='auto'>
                     <Link 
                         to='https://github.com/joorjeh'
                     >
-                        <GitHubIcon sx={{"&:hover": { color: "black"}}} />
+                        <GitHubIcon sx={{"&:hover": { color: "#322E2B"}}} />
                     </Link>
                     <Link 
                         to='https://x.com/joorjeh'
                     >
-                        <XIcon sx={{"&:hover": { color: "black"}}} />
+                        <XIcon sx={{"&:hover": { color: "#322E2B"}}} />
                     </Link>
                 </Flex>
             </Flex>

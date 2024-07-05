@@ -12,7 +12,7 @@ function App() {
 	  height='100vh' 
 	  width='100vw'
 	  bgColor='white'
-	  color='battleshipGray'
+	  color='jet'
 	  fontFamily="Montserrat"
 	  fontWeight={600}
 	>
