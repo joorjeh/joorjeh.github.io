@@ -1,18 +1,22 @@
 
-import post_20240605_a_post_title from './posts/post_20240605_a_post_title';
+import APostTitle from './posts/APostTitle';
 import { Box, Flex } from '@chakra-ui/react';
 
 const Articles = () => {
     return (
 	 	<Flex 
             width='100%'
+			height='100%'
 			gap='10px'
 			flexDirection='column'
 		>
-            <Box fontSize='40px'>
+            <Box 
+				fontSize='40px'
+				paddingBottom='30px'
+			>
                 blog
             </Box>
-            <post_20240605_a_post_title />
+            <APostTitle />
         </Flex>
     );
 };

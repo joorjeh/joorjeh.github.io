@@ -28,3 +28,6 @@ deploy.sh
 
 # vite
 .vite
+
+# Robby 
+.chat_history

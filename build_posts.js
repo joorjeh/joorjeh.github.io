@@ -6,22 +6,24 @@ let componentsImports = [];
 let componentsList = [];
 
 fs.readdirSync(postsDir).forEach(file => {
-    const content = fs.readFileSync(path.join(postsDir, file), 'utf-8');
+    const markdownContent = fs.readFileSync(path.join(postsDir, file), 'utf-8');
     const fileName = path.basename(file, '.md');
-    const tsxContent = `
+	const componentName = fileName.slice(8)
+	const tsxContent = `
 import Markdown from 'markdown-to-jsx';
 
-const ${fileName} = () => {
-    return <Markdown>${content}</Markdown>;
+const ${componentName} = () => {
+    const content = \`${markdownContent}\`;
+    return <Markdown>{content}</Markdown>;
 };
 
-export default ${fileName};
-    `;
+export default ${componentName};
+`;
 
-    fs.writeFileSync(path.join('src/posts', `${fileName}.tsx`), tsxContent);
+    fs.writeFileSync(path.join('src/posts', `${componentName}.tsx`), tsxContent);
 
-    componentsImports.push(`import ${fileName} from './posts/${fileName}';`);
-    componentsList.push(`<${fileName} />`);
+    componentsImports.push(`import ${componentName} from './posts/${componentName}';`);
+    componentsList.push(`<${componentName} />`);
 });
 
 const articlesContent = `
@@ -32,10 +34,14 @@ const Articles = () => {
     return (
 	 	<Flex 
             width='100%'
+			height='100%'
 			gap='10px'
 			flexDirection='column'
 		>
-            <Box fontSize='40px'>
+            <Box 
+				fontSize='40px'
+				paddingBottom='30px'
+			>
                 blog
             </Box>
             ${componentsList.join('\n')}
