@@ -23,8 +23,22 @@ const Articles = () => {
 				flexDirection='column'
 				fontSize='30px'
 			>
-				<Link key="APostTitle">A Post Title</Link>
-				<Link key="AnotherPostTitle">Another Post Title</Link>
+				<Box>
+					<Link key="APostTitle">A Post Title</Link>
+					<Box 
+						fontSize='16px' 
+						fontStyle='italic'
+						fontWeight='400'
+					>Jun 5, 2024</Box>
+				  </Box>
+<Box>
+					<Link key="AnotherPostTitle">Another Post Title</Link>
+					<Box 
+						fontSize='16px' 
+						fontStyle='italic'
+						fontWeight='400'
+					>Jul 2, 2024</Box>
+				  </Box>
 			</Flex>
         </Flex>
     );
