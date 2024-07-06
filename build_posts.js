@@ -11,6 +11,7 @@ fs.readdirSync(postsDir).forEach(file => {
 	const componentName = fileName.slice(8)
 	const tsxContent = `
 import Markdown from 'markdown-to-jsx';
+import './Post.css';
 
 const ${componentName} = () => {
     const content = \`${markdownContent}\`;
@@ -32,16 +33,16 @@ import { Box, Flex } from '@chakra-ui/react';
 
 const Articles = () => {
     return (
-	 	<Flex 
+        <Flex 
             width='100%'
-			height='100%'
-			gap='10px'
-			flexDirection='column'
-		>
+            height='100%'
+            gap='10px'
+            flexDirection='column'
+        >
             <Box 
 				fontSize='40px'
-				paddingBottom='30px'
-			>
+                paddingBottom='30px'
+            >
                 blog
             </Box>
             ${componentsList.join('\n')}
