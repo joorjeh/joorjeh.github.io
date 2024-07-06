@@ -1,6 +1,6 @@
 
-import APostTitle from './posts/APostTitle';
 import { Box, Flex } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 const Articles = () => {
     return (
@@ -11,12 +11,21 @@ const Articles = () => {
             flexDirection='column'
         >
             <Box 
-				fontSize='40px'
+                fontSize='40px'
                 paddingBottom='30px'
             >
                 blog
             </Box>
-            <APostTitle />
+			<Flex
+				gap='10px'
+				height='100%'
+				width='100%'
+				flexDirection='column'
+				fontSize='30px'
+			>
+				<Link key="APostTitle">A Post Title</Link>
+				<Link key="AnotherPostTitle">Another Post Title</Link>
+			</Flex>
         </Flex>
     );
 };

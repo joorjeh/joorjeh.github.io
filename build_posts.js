@@ -4,6 +4,14 @@ import path from 'path';
 const postsDir = './posts';
 let componentsImports = [];
 let componentsList = [];
+let componentNames = [];
+
+function camelCaseToWords(input) {
+    return input
+        .replace(/([A-Z])/g, ' $1')
+        .replace(/^./, function(str) { return str.toUpperCase(); })
+        .trim();
+}
 
 fs.readdirSync(postsDir).forEach(file => {
     const markdownContent = fs.readFileSync(path.join(postsDir, file), 'utf-8');
@@ -25,11 +33,12 @@ export default ${componentName};
 
     componentsImports.push(`import ${componentName} from './posts/${componentName}';`);
     componentsList.push(`<${componentName} />`);
+	componentNames.push(componentName);
 });
 
 const articlesContent = `
-${componentsImports.join('\n')}
 import { Box, Flex } from '@chakra-ui/react';
+import { Link } from 'react-router-dom';
 
 const Articles = () => {
     return (
@@ -40,12 +49,22 @@ const Articles = () => {
             flexDirection='column'
         >
             <Box 
-				fontSize='40px'
+                fontSize='40px'
                 paddingBottom='30px'
             >
                 blog
             </Box>
-            ${componentsList.join('\n')}
+			<Flex
+				gap='10px'
+				height='100%'
+				width='100%'
+				flexDirection='column'
+				fontSize='30px'
+			>
+				${componentNames.map((name) => (
+				  `<Link key="${name}">${camelCaseToWords(name)}</Link>`
+				)).join('\n')}
+			</Flex>
         </Flex>
     );
 };
