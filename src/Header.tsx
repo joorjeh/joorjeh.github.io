@@ -9,8 +9,6 @@ const Header = () => {
 			flexDirection='column'
 			alignItems='center'
 			height='100px'
-			padding='40px'
-			boxSizing='border-box'
 			fontWeight='bold'
 			fontSize='20px'
 			width='100%'

@@ -21,13 +21,13 @@ function App() {
         alignItems='center'
         width='50vw'
         height='100vh'
+		padding='40px'
       >
         <Header /> 
         <Box
           width='100%'
           height='calc(100vh - 100px)'
           overflowY='auto'
-          padding='40px'
           sx={{ '&::-webkit-scrollbar': { display: 'none' } }}
         >
           <Outlet />
