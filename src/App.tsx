@@ -5,11 +5,11 @@ import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <Flex 
-      flexDirection='column' 
-      alignItems='center' 
+    <Flex
+      flexDirection='column'
+      alignItems='center'
       justifyContent='center'
-      height='100vh' 
+      height='100vh'
       width='100vw'
       bgColor='white'
       color='jet'
@@ -21,9 +21,9 @@ function App() {
         alignItems='center'
         width='50vw'
         height='100vh'
-		padding='40px'
+        padding='40px'
       >
-        <Header /> 
+        <Header />
         <Box
           width='100%'
           height='calc(100vh - 100px)'
