@@ -34,6 +34,10 @@ const Articles = () => {
 
 Here is some text that tells about stuff!
 
+\`\`\`
+for i in range(5):
+	print(i)
+\`\`\`
 
 ## Anher Section
 
@@ -47,7 +51,7 @@ Here is some text that tells about stuff!
                 fontStyle = 'italic'
                 fontWeight = '400'
               > 
-                APostTitle
+                Jun 5, 2024
               </Box >
           </Box>
       </Flex >

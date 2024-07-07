@@ -72,7 +72,7 @@ const Articles = () => {
                 to="post/${info.name}"
                 key="${info.name}"
                 state={{
-                  content: \`${info.content}\`
+                  content: \`${info.content.replace(/```/g, '\\`\\`\\`')}\`
                 }}
               >
                 ${camelCaseToWords(info.name)}
@@ -82,7 +82,7 @@ const Articles = () => {
                 fontStyle = 'italic'
                 fontWeight = '400'
               > 
-                ${info.name}
+                ${info.date}
               </Box >
           </Box>`
 )).join('\n')}
