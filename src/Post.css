@@ -1,13 +1,16 @@
 h1 {
 	font-size: 30px;
+  padding-bottom: 20px;
 }
 
 h2 {
 	font-size: 26px;
+  padding-bottom: 10px;
 }
 
 p {
 	font-weight: 400;
+  padding-bottom: 10px;
 }
 
 

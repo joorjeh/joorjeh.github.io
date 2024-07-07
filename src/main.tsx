@@ -7,6 +7,7 @@ import { RouterProvider, createHashRouter } from 'react-router-dom'
 import About from './About.tsx'
 import tonguesTheme from './theme.ts';
 import Articles from './Articles.tsx'
+import Post from './Post.tsx'
 
 const router = createHashRouter([
   {
@@ -22,8 +23,12 @@ const router = createHashRouter([
         element: <About />,
       },
       {
-        path: 'blog',
+        path: 'posts',
         element: <Articles />,
+      },
+      {
+        path: 'post/:post',
+        element: <Post />
       }
     ]
   },
