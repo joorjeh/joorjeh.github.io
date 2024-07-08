@@ -1,34 +1,4 @@
-
-import { Box, Flex } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
-
-const Articles = () => {
-    return (
-        <Flex 
-            width='100%'
-            height='100%'
-            gap='10px'
-            flexDirection='column'
-        >
-            <Box 
-                fontSize='40px'
-                paddingBottom='30px'
-            >
-                blog
-            </Box>
-      <Flex
-        gap='10px'
-        height='100%'
-        width='100%'
-        flexDirection='column'
-        fontSize='30px'
-      >
-                <Box>
-              <Link 
-                to="post/TheAxiomaticMachine"
-                key="TheAxiomaticMachine"
-                state={{
-                  content: `# The Axiomatic Machine
+# The Axiomatic Machine
 
 Godel’s incompleteness theorem proves that there is no way to derive all true arithmetical statements using a formal system.  The only way is to continue adding an infinite amount of axioms.
 
@@ -62,22 +32,3 @@ So are LLMs formal systems? Nay sir, they are not.  They are NOT algorithms.  Wh
 Wait, what?
 
 Why do I call these new facts contained within the language model axioms and not theorems.  I mean they were DERIVED from the data weren’t they?  This is a debatable point but I think the reason these LLM “facts” should not be called theorems is that they are bounded by the data.  No ML algorithm can construct theorems outside the data distribution, so ultimately it’s just a set of axioms.  I won’t press it too strongly, but I think this is the proper way of looking at it.  You could argue that they are in fact theorems and that actually LLMs learn all kinds of things from the data that are not explicitly stated (like copy algorithms and such).  Ultimately though, all those things are just static programs to the LLM.   At this point I’m waxing poetic and the mushrooms are taking hold so I think I’ll just leave it there.  Please refute me if you can I’d actually love to be reprimanded by the courtiers if they please.
-`
-                }}
-              >
-                The Axiomatic Machine
-              </Link>
-              <Box 
-                fontSize = '16px' 
-                fontStyle = 'italic'
-                fontWeight = '400'
-              > 
-                Jul 8, 2024
-              </Box >
-          </Box>
-      </Flex >
-        </Flex >
-    );
-};
-
-export default Articles;
