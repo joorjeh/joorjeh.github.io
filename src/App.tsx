@@ -21,7 +21,7 @@ function App() {
         alignItems='center'
         width='50vw'
         height='100vh'
-        padding='40px'
+        padding='10px'
       >
         <Header />
         <Box

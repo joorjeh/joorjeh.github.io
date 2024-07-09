@@ -32,13 +32,12 @@ fs.readdirSync(postsDir).forEach(file => {
   const componentDate = extractDate(fileName)
   const componentName = fileName.slice(8);
 
-  //fs.writeFileSync(path.join('src/posts', `${componentName}.tsx`), tsxContent);
-
   componentInfo.push({
     name: componentName,
     date: componentDate,
     content: markdownContent,
   });
+  componentInfo.reverse();
 });
 
 const articlesContent = `
@@ -57,7 +56,7 @@ const Articles = () => {
                 fontSize='40px'
                 paddingBottom='30px'
             >
-                blog
+              {"<blog>"}
             </Box>
       <Flex
         gap='10px'
@@ -72,6 +71,7 @@ const Articles = () => {
                 to="post/${info.name}"
                 key="${info.name}"
                 state={{
+                  date: "${info.date}",
                   content: \`${info.content.replace(/```/g, '\\`\\`\\`')}\`
                 }}
               >

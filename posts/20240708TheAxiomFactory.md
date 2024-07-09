@@ -1,8 +1,8 @@
-# The Axiomatic Machine
+# The Axiom Factory
 
 Godel’s incompleteness theorem proves that there is no way to derive all true arithmetical statements using a formal system.  The only way is to continue adding an infinite amount of axioms.
 
-My interpretation of Godel’s theorem is that because formal systems can never fully represent all true statements and therefore the human mind (which concocts and believes said unprovable but true arithmetical statements) is NOT a formal system.  The human mind (really all of biological life) is an active system in which representations of the world are perceived and those representations are taken as the axioms used to generate theorems about the nature of reality.   We make ASSUMPTIONS about reality (or its representations) in order to model it in a predictive way.
+My interpretation of Godel’s theorem is that because formal systems can never fully represent all true statements and therefore the human mind (which concocts and believes said unprovable but true arithmetical statements) is NOT a formal system (at least not a complete one).  The human mind (really all of biological life) is an active system in which representations of the world are perceived and those representations are taken as the axioms used to generate theorems about the nature of reality.   We make ASSUMPTIONS about reality (or its representations) in order to model it in a predictive way. In other words, the human mind is an AXIOM FACTORY.
 
 Through experience, a “world model” is constructed which is simply a store of axioms for the representation of the world.  For example, the statement
 “If it is raining and I am standing in the rain then I will get wet” 
@@ -31,4 +31,6 @@ So are LLMs formal systems? Nay sir, they are not.  They are NOT algorithms.  Wh
 
 Wait, what?
 
-Why do I call these new facts contained within the language model axioms and not theorems.  I mean they were DERIVED from the data weren’t they?  This is a debatable point but I think the reason these LLM “facts” should not be called theorems is that they are bounded by the data.  No ML algorithm can construct theorems outside the data distribution, so ultimately it’s just a set of axioms.  I won’t press it too strongly, but I think this is the proper way of looking at it.  You could argue that they are in fact theorems and that actually LLMs learn all kinds of things from the data that are not explicitly stated (like copy algorithms and such).  Ultimately though, all those things are just static programs to the LLM.   At this point I’m waxing poetic and the mushrooms are taking hold so I think I’ll just leave it there.  Please refute me if you can I’d actually love to be reprimanded by the courtiers if they please.
+Why do I call these new facts contained within the language model axioms and not theorems.  I mean they were DERIVED from the data weren’t they?  This is a debatable point but I think the reason these LLM “facts” should not be called theorems is that they are bounded by the data.  No ML algorithm can construct theorems outside the data distribution, so ultimately it’s just a set of axioms.  I won’t press it too strongly, but I think this is the proper way of looking at it.  You could argue that they are in fact theorems and that actually LLMs learn all kinds of things from the data that are not explicitly stated (like copy algorithms and such).  Ultimately though, all those things are just static programs to the LLM.   At this point I’m waxing poetic and the mushrooms are taking hold so I think I’ll just leave it there.  
+
+Please refute me if you can I’d actually love to be reprimanded by the courtiers if they please.
