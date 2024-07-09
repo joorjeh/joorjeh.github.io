@@ -51,10 +51,12 @@ const Articles = () => {
             height='100%'
             gap='10px'
             flexDirection='column'
+            fontFamily='Montserrat'
+            fontWeight={600}
         >
-            <Box 
-                fontSize='40px'
-                paddingBottom='30px'
+            <Box
+              fontSize='40px'
+              paddingBottom='20px'
             >
               {"<blog>"}
             </Box>
@@ -63,7 +65,7 @@ const Articles = () => {
         height='100%'
         width='100%'
         flexDirection='column'
-        fontSize='30px'
+        fontSize='26px'
       >
         ${componentInfo.map((info) => (
   `        <Box>
