@@ -10,6 +10,7 @@ const Header = () => {
       height='100px'
       fontWeight='bold'
       fontSize='20px'
+      fontFamily='Montserrat'
       width='100%'
     >
       <Link to="/">joorjeh</Link>

@@ -8,16 +8,17 @@ h2 {
   padding-bottom: 10px;
 }
 
+h1, h2 {
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
 p {
-  font-weight: 400;
-  font-family: Literata, sans-serif;
   font-size: 18px;
   padding-bottom: 10px;
 }
 
 ul {
-	font-weight: 400;
-  font-family: Literata, sans-serif;
   font-size: 18px;
   padding-bottom: 10px;
   list-style-type: disc;

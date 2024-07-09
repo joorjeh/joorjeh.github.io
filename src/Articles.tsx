@@ -31,12 +31,14 @@ const Articles = () => {
                   date: "Jul 8, 2024",
                   content: `# The Axiom Factory
 
-Godel’s incompleteness theorem proves that there is no way to derive all true arithmetical statements using a formal system.  The only way is to continue adding an infinite amount of axioms.
+Godel’s incompleteness theorem proves that there is no way to derive all true arithmetical statements using a  complete formal system.  The only way is to continue adding an infinite amount of axioms.
 
 My interpretation of Godel’s theorem is that because formal systems can never fully represent all true statements and therefore the human mind (which concocts and believes said unprovable but true arithmetical statements) is NOT a formal system (at least not a complete one).  The human mind (really all of biological life) is an active system in which representations of the world are perceived and those representations are taken as the axioms used to generate theorems about the nature of reality.   We make ASSUMPTIONS about reality (or its representations) in order to model it in a predictive way. In other words, the human mind is an AXIOM FACTORY.
 
 Through experience, a “world model” is constructed which is simply a store of axioms for the representation of the world.  For example, the statement
-“If it is raining and I am standing in the rain then I will get wet” 
+
+    “If it is raining and I am standing in the rain then I will get wet” 
+
 is an axiom (a very specific one with no generality) which is constructed from experience.  The words that make up the statement are constant symbols like in a formal system.  Thus we have words for rain, stand, wet, is, etc which all have meanings determined by associations (i.e. they are not active).  They are simply associations we repeatedly reinforce over time.  We then construct statements from these associations to come up with axioms about the world.  The list of axioms is REALLY long (compared to say the axioms of a typical formal system like Principia Mathematica).  This is because we build them through experience, not logical thinking (though sometimes from logical thinking too but we’ll get to that).
 
 Some examples would be:

@@ -10,7 +10,11 @@ const Post = () => {
 
   return (
     <>
-      <Box fontStyle='italic' fontWeight='400'>
+      <Box
+        fontStyle='italic'
+        fontWeight='400'
+        fontFamily='Montserrat'
+      >
         {date}
       </Box>
       <Markdown>

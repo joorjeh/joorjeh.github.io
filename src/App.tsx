@@ -13,15 +13,14 @@ function App() {
       width='100vw'
       bgColor='white'
       color='jet'
-      fontFamily="Montserrat"
-      fontWeight={600}
+      fontFamily="Liberata"
+      fontWeight={400}
     >
       <Flex
         flexDirection='column'
         alignItems='center'
         width='50vw'
         height='100vh'
-        padding='10px'
       >
         <Header />
         <Box
