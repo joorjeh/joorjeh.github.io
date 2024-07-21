@@ -42,7 +42,7 @@ fs.readdirSync(postsDir).forEach(file => {
 
 const articlesContent = `
 import { Box, Flex } from '@chakra-ui/react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 
 const Articles = () => {
     return (
